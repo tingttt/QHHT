@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QHHT Guidance | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">QHHT Guidance</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="resources.html">Resources</a>
+        <a href="qa.html">Q&A</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-header">
+      <h1>Contact</h1>
+      <p>
+        Reach out with your questions, thoughts, or interest. You can send a message through the form
+        below or contact me directly by email.
+      </p>
+    </section>
+
+    <section class="grid-2">
+      <div class="contact-card">
+        <span class="tag">Let’s connect</span>
+        <h3>Direct Contact</h3>
+        <p>Email: <a href="mailto:tingting.healing@gmail.com">tingting.healing@gmail.com</a></p>
+        <p>Instagram: <a href="#">@yourhandle</a></p>
+        <p class="note">
+          You can edit these with your real contact details later.
+        </p>
+      </div>
+
+      <div class="form-card">
+        <span class="tag">Message Form</span>
+        <h3>Send me a message</h3>
+
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div>
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+
+          <div>
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required />
+          </div>
+
+          <div>
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+              <option value="general">General Question</option>
+              <option value="resources">Resources</option>
+              <option value="qhht">QHHT Question</option>
+              <option value="personal">Personal Inquiry</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p id="footerText"></p>
+      <p>Email: <a id="footerEmail"></a></p>
+      <p id="copyright"></p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
