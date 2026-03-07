@@ -92,12 +92,18 @@ async function loadSiteInfo() {
     const footerText = document.getElementById("footerText");
     const footerEmail = document.getElementById("footerEmail");
     const copyright = document.getElementById("copyright");
+    const contactEmail = document.getElementById("contactEmail");
 
     if (footerText) footerText.textContent = data.footerText;
 
     if (footerEmail) {
       footerEmail.textContent = data.email;
       footerEmail.href = "mailto:" + data.email;
+    }
+    
+    if (contactEmail) {
+      contactEmail.textContent = data.email;
+      contactEmail.href = "mailto:" + data.email;
     }
 
     if (copyright) copyright.textContent = data.copyright;
