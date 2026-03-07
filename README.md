@@ -15,7 +15,7 @@ The goal of the site is to provide a calm and welcoming place where visitors can
 
 The site is designed as a simple, clean "digital introduction" for people who are curious about hypnosis, self-discovery, and inner exploration.
 
-Sessions are currently conducted **in person only in Jersey City, New Jersey**.
+Sessions are currently conducted **in person only**.
 
 ---
 
