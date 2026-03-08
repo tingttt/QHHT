@@ -45,7 +45,17 @@
         <span class="tag">Message Form</span>
         <h3>Send me a message</h3>
 
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form action="https://formsubmit.co/Aurelia.hypnosis@gmail.com" method="POST">
+
+          <!-- disable captcha if you want -->
+          <input type="hidden" name="_captcha" value="false">
+
+          <!-- redirect to thank you page -->
+          <input type="hidden" name="_next" value="https://tingttt.github.io/QHHT/thankyou.html">
+
+          <!-- optional subject line -->
+          <input type="hidden" name="_subject" value="New QHHT Inquiry – Aurelia Website">
+
           <div>
             <label for="name">Full Name</label>
             <input id="name" name="name" type="text" required />
@@ -77,6 +87,7 @@
           </div>
 
           <button class="btn btn-primary" type="submit">Send Message</button>
+
         </form>
       </div>
     </section>
@@ -111,10 +122,12 @@
         <h4>Notice</h4>
         <p>
           QHHT® was developed by Dolores Cannon. For official information, please visit the
-          <a href="https://shop.qhhtofficial.com/pages/about" target="_blank" rel="noopener noreferrer">official QHHT website</a>.
+          <a href="https://shop.qhhtofficial.com/pages/about" target="_blank" rel="noopener noreferrer">official QHHT
+            website</a>.
         </p>
         <p class="footer-note">
-          This website is operated by an independent practitioner and is intended for informational and wellness purposes only.
+          This website is operated by an independent practitioner and is intended for informational and wellness
+          purposes only.
           QHHT and hypnosis are not substitutes for medical, psychological, or psychiatric care.
         </p>
       </div>
