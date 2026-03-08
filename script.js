@@ -89,24 +89,20 @@ async function loadSiteInfo() {
     const response = await fetch("./data/site.json");
     const data = await response.json();
 
-    const footerText = document.getElementById("footerText");
-    const footerEmail = document.getElementById("footerEmail");
-    const copyright = document.getElementById("copyright");
-    const contactEmail = document.getElementById("contactEmail");
+    const copyrightEls = document.querySelectorAll(".copyright");
+    const contactEmails = document.querySelectorAll(".contactEmail");
 
-    if (footerText) footerText.textContent = data.footerText;
+    contactEmails.forEach(el => {
+      el.textContent = data.email;
 
-    if (footerEmail) {
-      footerEmail.textContent = data.email;
-      footerEmail.href = "mailto:" + data.email;
-    }
-    
-    if (contactEmail) {
-      contactEmail.textContent = data.email;
-      contactEmail.href = "mailto:" + data.email;
-    }
+      if (el.tagName === "A") {
+        el.href = "mailto:" + data.email;
+      }
+    });
 
-    if (copyright) copyright.textContent = data.copyright;
+    copyrightEls.forEach(el => {
+      el.textContent = data.copyright;
+    });
 
   } catch (error) {
     console.error("Error loading site.json:", error);

@@ -1,22 +1,67 @@
 [
   {
     "question": "What is QHHT?",
-    "answer": "QHHT is a hypnosis-based spiritual exploration method that helps guide people into a deep relaxed state for inner insight and healing.",
-    "keywords": ["qhht", "beginner", "what is qhht"]
+    "answer": "Quantum Healing Hypnosis Technique (QHHT) is a hypnosis method developed by Dolores Cannon after many years of research and practice. It uses deep relaxation to help a person explore memories, experiences, and insights that may come from the subconscious mind. Some sessions may include past-life imagery and communication with what Dolores Cannon described as the Subconscious.",
+    "keywords": ["qhht", "what is qhht", "dolores cannon", "hypnosis"]
   },
   {
-    "question": "Is QHHT safe?",
-    "answer": "Many people are curious about safety. It is important to feel informed, comfortable, and emotionally ready before exploring this kind of work.",
-    "keywords": ["safe", "safety", "concern"]
+    "question": "Will I be asleep during a QHHT session?",
+    "answer": "Most people remain aware during a QHHT session. The experience is usually similar to a very deep state of relaxation or meditation. Clients can still hear the practitioner’s voice and often remember much of the session afterward.",
+    "keywords": ["asleep", "conscious", "aware", "trance"]
   },
   {
-    "question": "What if I feel nervous?",
-    "answer": "Feeling nervous is common. Curiosity and uncertainty are natural when exploring something new.",
-    "keywords": ["nervous", "anxiety", "concern"]
+    "question": "What is the Subconscious in QHHT?",
+    "answer": "In the QHHT framework, the Subconscious refers to a deeper level of the mind that may hold personal insight, memories, and guidance. During some sessions, the practitioner may ask questions to this deeper part of the mind to help explore emotional, physical, or life-related questions.",
+    "keywords": ["subconscious", "higher self", "mind"]
   },
   {
-    "question": "How do I prepare for a session?",
-    "answer": "Preparation may include rest, hydration, journaling questions, and arriving with an open mind.",
-    "keywords": ["prepare", "preparation", "session"]
-  }
+    "question": "Do people always experience past lives in QHHT?",
+    "answer": "Not every session focuses on past-life experiences. Some people may see imagery or memories that feel like past lives, while others experience symbolic scenes or meaningful insights. Each session is unique and may unfold differently depending on the individual.",
+    "keywords": ["past life", "regression", "experience"]
+  },
+  {
+    "question": "How long does a QHHT session usually take?",
+    "answer": "A QHHT session is typically several hours long. The process often includes a conversation before hypnosis, the hypnosis session itself, communication with the subconscious, and time to discuss the experience afterward.",
+    "keywords": ["session length", "duration", "time"]
+  },
+  {
+    "question": "Can QHHT help with healing?",
+    "answer": "Some people seek QHHT to explore personal insight, emotional understanding, or possible healing experiences. While some clients report positive changes after sessions, QHHT is considered a complementary wellness practice and should not replace medical or psychological care.",
+    "keywords": ["healing", "benefits", "wellness"]
+  },
+  {
+    "question": "How can I prepare for a QHHT session?",
+    "answer": "Approaching a session with a relaxed and open mindset can help the experience feel smoother. Many practitioners suggest letting go of expectations, allowing the mind to quiet down, and being open to whatever impressions or imagery arise during the session.",
+    "keywords": ["prepare", "session preparation", "tips"]
+  },
+  {
+    "question": "What does it mean to quiet the analytical mind?",
+    "answer": "The analytical mind is the part of the brain that constantly tries to evaluate and judge what is happening. During hypnosis, it can help to relax this tendency and allow experiences to arise naturally without trying to analyze every detail.",
+    "keywords": ["analytical mind", "thinking", "relax"]
+  },
+  {
+    "question": "Why is it helpful to trust first impressions during hypnosis?",
+    "answer": "In many hypnosis sessions, the first image or impression that appears may carry meaning. Overthinking or doubting these impressions can interrupt the flow of the experience, so allowing them to emerge naturally can help the process unfold more smoothly.",
+    "keywords": ["first impression", "trust", "experience"]
+  },
+  {
+    "question": "Do I need to control what happens during the session?",
+    "answer": "Clients are generally encouraged to relax and allow the experience to unfold naturally rather than trying to control or force specific outcomes. A calm and receptive mindset can help people enter a deeper state of relaxation during hypnosis.",
+    "keywords": ["control", "relax", "process"]
+  },
+  {
+    "question": "Suggestion to prepare the session",
+    "answer": "Encourages people to relax, let go of the need to control the experience, quiet the analytical mind, and trust the first impressions that arise during hypnosis. Allowing the process to unfold naturally can help the session feel deeper and smoother.",
+    "keywords": ["relax", "session tips", "advice"]
+  },
+  {
+    "question": "Why is relaxation important for hypnosis?",
+    "answer": "Relaxation helps the mind move away from analytical thinking and into a calmer state where imagination, memory, and subconscious impressions can emerge more easily. Many hypnosis practitioners emphasize that a relaxed and open mindset can make the experience feel more natural and comfortable.",
+    "keywords": ["relaxation", "hypnosis state", "mindset"]
+  },
+  {
+  "question": "What mindset helps create a meaningful QHHT session?",
+  "answer": "Many experienced practitioners explain that the most helpful mindset is one of openness and curiosity. During a QHHT session, the practitioner acts as a guide while the client explores their own inner awareness. Allowing the experience to unfold naturally, staying relaxed, and being open to whatever impressions arise can help the session feel more meaningful and insightful.",
+  "keywords": ["mindset", "expectations", "qhht session", "openness"]
+}
 ]
