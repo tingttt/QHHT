@@ -45,16 +45,10 @@
         <span class="tag">Message Form</span>
         <h3>Send me a message</h3>
 
-        <form action="https://formsubmit.co/Aurelia.hypnosis@gmail.com" method="POST">
-
-          <!-- disable captcha if you want -->
+        <form action="https://formsubmit.co/aurelia.hypnosis@gmail.com" method="POST">
           <input type="hidden" name="_captcha" value="false">
-
-          <!-- redirect to thank you page -->
           <input type="hidden" name="_next" value="https://tingttt.github.io/QHHT/thankyou.html">
-
-          <!-- optional subject line -->
-          <input type="hidden" name="_subject" value="New QHHT Inquiry – Aurelia Website">
+          <input type="hidden" name="_subject" value="New QHHT Inquiry - Aurelia Website">
 
           <div>
             <label for="name">Full Name</label>
@@ -67,17 +61,10 @@
           </div>
 
           <div>
-            <label for="subject">Subject</label>
-            <input id="subject" name="subject" type="text" required />
-          </div>
-
-          <div>
             <label for="topic">Topic</label>
             <select id="topic" name="topic">
               <option value="general">General Question</option>
-              <option value="resources">Resources</option>
-              <option value="qhht">QHHT Question</option>
-              <option value="personal">Personal Inquiry</option>
+              <option value="qhht">Book a Session</option>
             </select>
           </div>
 
@@ -87,7 +74,6 @@
           </div>
 
           <button class="btn btn-primary" type="submit">Send Message</button>
-
         </form>
       </div>
     </section>
